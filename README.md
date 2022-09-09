@@ -10,11 +10,11 @@ In order to process the data for this project, the following steps were taken:
 4. Visualizations were created using hvplot libraries in a Jupyter Notebook
 
 ## Results
-The original data file contained more than 1,200 cryptocurrencies. After cleaning the data there were only 532 usable data points. These data points were loaded into a DataFrame and further reduced. An Elbow curve was generated to identify the best value to use for clustering the data into groups. Subsequently, a table and various graphs were produced displaying each cryptocurrency grouped by their respective cluster. 
+The original data file contained more than 1,200 cryptocurrencies. After cleaning the data there were only 532 usable data points. These data points were loaded into a DataFrame and further reduced. An Elbow curve was generated to identify the best value to use for clustering the data into groups. For this project, the value was determined to be 4. Subsequently, a K-means model was run using the value of 4 and a table and various graphs were produced displaying each cryptocurrency grouped by their respective cluster. 
 
 Elbow Curve:
 
-![elbow_graph](https://user-images.githubusercontent.com/104606662/189284103-0b028ac5-b5a0-4877-a640-b86db0bfcb28.png)
+![elbow_graph](https://user-images.githubusercontent.com/104606662/189285076-1805104a-a76d-4e8d-843f-1b4d69757161.png)
 
 DataFrame Containing the Clustered Data Points:
 
